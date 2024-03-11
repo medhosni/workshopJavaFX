@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<HBox fx:id="boxh" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="219.0" prefWidth="418.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.CardViewController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@download.jpg" />
+         </image>
+      </ImageView>
+      <VBox fx:id="boxv" prefHeight="219.0" prefWidth="215.0">
+         <children>
+            <Label fx:id="nom" prefHeight="74.0" prefWidth="222.0" text="Label" />
+            <Label fx:id="prenom" prefHeight="68.0" prefWidth="217.0" text="Label" />
+            <Label fx:id="age" prefHeight="77.0" prefWidth="221.0" text="Label" />
+         </children>
+      </VBox>
+   </children>
+</HBox>
